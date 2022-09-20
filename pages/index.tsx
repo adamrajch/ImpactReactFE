@@ -1,4 +1,5 @@
 import { Box, Button, createStyles, Group, Stack } from "@mantine/core";
+import { IconBrandGithub } from "@tabler/icons";
 import { useState } from "react";
 import ColorToggle from "../components/ColorToggle";
 
@@ -51,6 +52,15 @@ export default function IndexPage() {
           BUTTON
         </Button>
         <ColorToggle />
+
+        <Button
+          leftIcon={<IconBrandGithub />}
+          color="gray"
+          component="a"
+          href="https://impact-react-fe.vercel.app/"
+        >
+          Github Repo
+        </Button>
       </Group>
       <Box mt={20} className={classes.container}>
         {swap ? (
