@@ -57,7 +57,7 @@ export default function IndexPage() {
           leftIcon={<IconBrandGithub />}
           color="gray"
           component="a"
-          href="https://impact-react-fe.vercel.app/"
+          href="https://github.com/adamrajch/ImpactReactFE"
         >
           Github Repo
         </Button>
